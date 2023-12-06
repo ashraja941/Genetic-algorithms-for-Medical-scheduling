@@ -1,0 +1,20 @@
+Begin
+	Define objective function
+	Generate Initial population
+	Define absorption coefficient
+	
+	while (gen < maxGeneration):
+		for i = 1 : n
+			for j = 1 : i
+				if(Ii > Ij)
+					Vary attraction with distance
+					move firefly i to j
+					update light intensity
+				end if
+			end for j
+		end for i 
+		find current best firefly;
+	end while
+end
+
+

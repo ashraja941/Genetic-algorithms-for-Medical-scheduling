@@ -1,0 +1,10 @@
+begin
+	shuffle list of Jobs
+	for i = 1 : J
+		find free machine
+		assign job to free machine
+	end for i
+	Cmax = max(m)
+	return Cmax
+end
+
